@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3">
+    <realmCode code="US" />
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3" />
+    <templateId root="1.2.840.114350.1.72.1.51693" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.1" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.2" />
+    <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01" />
+    <id assigningAuthorityName="EPC" extension="c412dec8-bd81-11e6-8704-d2068206269d" root="1.2.840.114350.1.13.5325.1.7.1.1" />
+    <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of Episode Note" />
+    <title>Clinical Summary</title>
+    <effectiveTime value="20161208140611-0600" />
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal" />
+    <languageCode code="en-US" />
+    <recordTarget>
+        <patientRole>
+            <id extension="IDC2210008" root="1.2.840.114350.1.13.5325.1.7.3.688884.100" />
+            <id assigningAuthorityName="Social Security Administration" extension="555-55-5555" root="2.16.840.1.113883.4.1" />
+            <addr use="HP">
+                <streetAddressLine>6415 Ravenhollow Court</streetAddressLine>
+                <city>FITCHBURG</city>
+                <state>WI</state>
+                <postalCode>53593</postalCode>
+                <country>USA</country>
+            </addr>
+            <telecom use="HP" value="tel:+1-410-377-2787" />
+            <telecom value="mailto:canderso@epic.com" />
+            <patient>
+                <name use="L">
+                    <given>Delphine</given>
+                    <family>Burwell</family>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGenderCode" displayName="Female" />
+                <birthTime value="19930708" />
+                <maritalStatusCode nullFlavor="UNK" />
+                <raceCode nullFlavor="UNK" />
+                <ethnicGroupCode nullFlavor="UNK" />
+                <languageCommunication>
+                    <languageCode nullFlavor="UNK" />
+                </languageCommunication>
+            </patient>
+            <providerOrganization>
+                <id extension="5400" root="1.2.840.114350.1.13.5325.1.7.2.688879" />
+                <name>Current Stage 1 Primary &lt;b&gt;</name>
+                <telecom use="WP" value="tel:+1-608-771-0280" />
+                <addr>
+                    <streetAddressLine>124 Ok Corral Avenue</streetAddressLine>
+                    <streetAddressLine>Suite 1704B 250</streetAddressLine>
+                    <streetAddressLine>snakes on a plane</streetAddressLine>
+                    <streetAddressLine>4th Line</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53719</postalCode>
+                    <country>USA</country>
+                </addr>
+            </providerOrganization>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="20161208140611-0600" />
+        <assignedAuthor>
+            <id extension="8.4" root="1.2.840.114350.1.1" />
+            <addr nullFlavor="NA" />
+            <telecom nullFlavor="NA" />
+            <assignedAuthoringDevice>
+                <manufacturerModelName>Epic - Version 8.4</manufacturerModelName>
+                <softwareName>Epic - Version 8.4</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization>
+                <id extension="5400" root="1.2.840.114350.1.13.5325.1.7.2.688879" />
+                <name>Current Stage 1 Primary &lt;b&gt;</name>
+                <telecom use="WP" value="tel:+1-608-771-0280" />
+                <addr>
+                    <streetAddressLine>124 Ok Corral Avenue</streetAddressLine>
+                    <streetAddressLine>Suite 1704B 250</streetAddressLine>
+                    <streetAddressLine>snakes on a plane</streetAddressLine>
+                    <streetAddressLine>4th Line</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53719</postalCode>
+                    <country>USA</country>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian>
+            <representedCustodianOrganization>
+                <id extension="5400" root="1.2.840.114350.1.13.5325.1.7.2.688879" />
+                <name>Current Stage 1 Primary &lt;b&gt;</name>
+                <telecom use="WP" value="tel:+1-608-771-0280" />
+                <addr>
+                    <streetAddressLine>124 Ok Corral Avenue</streetAddressLine>
+                    <streetAddressLine>Suite 1704B 250</streetAddressLine>
+                    <streetAddressLine>snakes on a plane</streetAddressLine>
+                    <streetAddressLine>4th Line</streetAddressLine>
+                    <city>MADISON</city>
+                    <state>WI</state>
+                    <postalCode>53719</postalCode>
+                    <country>USA</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <documentationOf typeCode="DOC">
+        <serviceEvent classCode="PCPR">
+            <effectiveTime>
+                <low value="19930708" />
+                <high value="20161208" />
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88" codeSystemName="ParticipationFunction" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low nullFlavor="NI" />
+                    <high nullFlavor="PINF" />
+                </time>
+                <assignedEntity nullFlavor="NI">
+                    <id nullFlavor="UNK" />
+                    <addr nullFlavor="NA" />
+                    <telecom nullFlavor="NA" />
+                    <assignedPerson nullFlavor="NA">
+                        <name nullFlavor="NA" />
+                    </assignedPerson>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <code code="CARETEAM" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Care Team" />
+                    <!-- Other possible types of Care Teams include:
+	Note: FHIR permits multiple codes to be used to designate the type of care team.  CDA offers less precision, and so only the XXXX Dimension code is used.
+	-->
+                    <title mediaType="text/plain" representation="TXT" language="en-US">Care Team Information</title>
+                    <text>
+                        <list >
+                            <item>
+                                <table>
+                                    <caption>My Care Team</caption>
+                                    <tbody>
+                                        <tr>
+                                            <td>Focus: Care Coordination</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nature: Integrated</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Setting: Personal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>From 1996 to present</td>	
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <colgroup>
+                                        <col width="33%" span="3"/>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Dr. Uel B. Better</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: PCP</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Internal Medicine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: 100 Main St. Suite 100, Hope
+                                                                        Valley, RI 02832</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: (401)539-2461</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email:
+                                                                        ubbetter@direct.aclinic.org. </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: Hope Woods Health
+                                                                        Services</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: Aug 1, 2016</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Dr. Fiora W. Omen</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: Gynecologist</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Obstetrics/Gynecology</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email: Not on File </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: Center for Womens
+                                                                        Health</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: 1999</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                        </tr>
+                                        <tr styleCode="normRow">
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Reverend Will Namaste</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: Pastor</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Spiritual Health</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: (987)123-1234</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email:
+                                                                        Will.Namaste123@gmail.com </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: Four Corners Community
+                                                                        Church Presbyterian</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: 2016</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Dr. Patricia Primary</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: PCP</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Internal Medicine</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email: Not on File </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: ML Medical Group</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: Jan 1, 2000 - To: July 31, 2016</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <br></br>
+                                <br></br>
+                            </item>
+                            <item>
+                                <table>
+                                    <caption>Shoulder Injury Care Team</caption>
+                                    <tbody>
+                                        <tr>
+                                            <td>Focus: Condition</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nature: Clinical</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Setting: Specialty</td>
+                                        </tr>
+                                        <tr>
+                                            <td>From October 1, 2016 to present</td>	
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table>
+                                    <colgroup>
+                                        <col width="33%" span="3"/>
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Beatrice Strong</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: Physical Therapist</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Physical Therapy</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email:
+                                                                        BeStrongPTN@FirstChoicePhysical.Direct.MD </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: First Choice Physical
+                                                                        Therapy</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: 2009</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Dr. S. Teddy Hands</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: Orthopedic Surgeon</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Orthopedic Surgeon</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email: Not on File </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: Bayview Orthopedic Associates</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: November 10, 2016 to November 10, 2016</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                            <td>
+                                                <list>
+                                                    <item>
+                                                        <table>
+                                                            <caption>Beau D. Stretch</caption>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>Role: Personal Trainer</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Speciality: Physical Therapy Assistant</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Address: YMCA, 123 Healthy Way, Westerly, RI 02891</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Person Contact Email:
+                                                                        DBStretch@FirstChoicePhysical.Direct.MD</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Organization Name: First Choice Physical
+                                                                        Therapy</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>From: January 5, 2017</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </item>
+                                                </list>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </item>
+                        </list>	  
+                    </text>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
