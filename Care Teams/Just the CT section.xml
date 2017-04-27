@@ -44,19 +44,19 @@
                                                                     <td>Speciality: Internal Medicine</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: 100 Main St. Suite 100, Hope
-                                                                        Valley, RI 02832</td>
+                                                                    <td>Address: 100 Main St. Suite 100, Hope
+                                                                        Valley, RI 02832</td> <!-- Person Address (entity) -->
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: (401)539-2461</td>
+                                                                    <td>Contact Phone: (401)539-2461</td> <!-- Person Phone (entity) -->
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email:
-                                                                        ubbetter@direct.aclinic.org. </td>
+                                                                    <td>Email:
+                                                                        ubbetter@direct.aclinic.org. </td> <!-- Person email (entity) -->
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Organization Name: Hope Woods Health
-                                                                        Services</td>
+                                                                    <td>Organization Name: Hope Woods Health 
+                                                                        Services</td> <!-- Organization name -->
                                                                 </tr>
                                                                 <tr>
                                                                     <td>From: Aug 1, 2016</td>
@@ -79,13 +79,13 @@
                                                                     <td>Speciality: Obstetrics/Gynecology</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: Not on File</td>
+                                                                    <td>Address: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                    <td>Contact Phone: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email: Not on File </td>
+                                                                    <td>Email: Not on File </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Organization Name: Center for Womens
@@ -114,13 +114,13 @@
                                                                     <td>Speciality: Spiritual Health</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: Not on File</td>
+                                                                    <td>Address: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: (987)123-1234</td>
+                                                                    <td>Contact Phone: (987)123-1234</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email:
+                                                                    <td>Email:
                                                                         Will.Namaste123@gmail.com </td>
                                                                 </tr>
                                                                 <tr>
@@ -148,13 +148,13 @@
                                                                     <td>Speciality: Internal Medicine</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: Not on File</td>
+                                                                    <td>Address: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                    <td>Contact Phone: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email: Not on File </td>
+                                                                    <td>Email: Not on File </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Organization Name: ML Medical Group</td>
@@ -210,13 +210,13 @@
                                                                     <td>Speciality: Physical Therapy</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: Not on File</td>
+                                                                    <td>Address: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                    <td>Contact Phone: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email:
+                                                                    <td>Email:
                                                                         BeStrongPTN@FirstChoicePhysical.Direct.MD </td>
                                                                 </tr>
                                                                 <tr>
@@ -244,13 +244,13 @@
                                                                     <td>Speciality: Orthopedic Surgeon</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: Not on File</td>
+                                                                    <td>Address: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                    <td>Contact Phone: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email: Not on File </td>
+                                                                    <td>Email: Not on File </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Organization Name: Bayview Orthopedic Associates</td>
@@ -276,13 +276,13 @@
                                                                     <td>Speciality: Physical Therapy Assistant</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Address: YMCA, 123 Healthy Way, Westerly, RI 02891</td>
+                                                                    <td>Address: YMCA, 123 Healthy Way, Westerly, RI 02891</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Phone: Not on File</td>
+                                                                    <td>Contact Phone: Not on File</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Person Contact Email:
+                                                                    <td>Email:
                                                                         DBStretch@FirstChoicePhysical.Direct.MD</td>
                                                                 </tr>
                                                                 <tr>
