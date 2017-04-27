@@ -42,14 +42,14 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Address: 100 Main St. Suite 100, Hope
-                                                                        Valley, RI 02832</td> <!-- Person Address (entity) -->
+                                                                        Valley, RI 02832</td> <!-- Address (AssignedEntity) -->
                                                                 </tr>
                                                                 <tr>
-                                                                    <td>Contact Phone: (401)539-2461</td> <!-- Person Phone (entity) -->
+                                                                    <td>Contact Phone: (401)539-2461</td> <!-- Phone (AssignedEntity) -->
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Email:
-                                                                        ubbetter@direct.aclinic.org. </td> <!-- Person email (entity) -->
+                                                                        ubbetter@direct.aclinic.org. </td> <!-- email (AssignedEntity) -->
                                                                 </tr>
                                                                 <tr>
                                                                     <td>Organization Name: Hope Woods Health 
