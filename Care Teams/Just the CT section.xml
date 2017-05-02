@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section>
-                    <code code="CARETEAM" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Care Team" />
+                    <code code="CARETEAM" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Care team information" />
                     <!-- Other possible types of Care Teams include:
 	Note: FHIR permits multiple codes to be used to designate the type of care team.  CDA offers less precision, and so only the XXXX Dimension code is used.
 	-->
